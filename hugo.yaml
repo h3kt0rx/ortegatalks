@@ -126,7 +126,7 @@ menu:
       weight: 30
     - identifier: signup
       pre: complexdropdown
-      name: Sign Up!
+      name: Sign Up
       weight: 40
     - identifier: contact
       name: Contact
