@@ -147,13 +147,13 @@ menu:
       name: Volunteers
       post: "SLP/Volunteer SignUp"
       url: "https://docs.google.com/forms/d/e/1FAIpQLSd0xYiWmcHQM_GhrxGQHsANH0gcTPJ_2lCx6mfeH7EOvSKixg/viewform?pli=1"
-      weight: 10
-    - identifier: comments
-      pre: comments # can be stars, comments or piechart
-      name: Comments
-      post: "Check your latest comments"
-      url: "#"
       weight: 20
+    - identifier: parents
+      pre: stars # can be stars, comments or piechart
+      name: Parents
+      post: "Parent and Child SignUp"
+      url: "https://docs.google.com/forms/d/e/1FAIpQLSd0xYiWmcHQM_GhrxGQHsANH0gcTPJ_2lCx6mfeH7EOvSKixg/viewform?pli=1"
+      weight: 10
     - identifier: analytics
       pre: piechart # can be stars, comments or piechart
       name: Analytics
