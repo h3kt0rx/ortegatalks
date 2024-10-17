@@ -124,9 +124,9 @@ menu:
       pre: dropdown
       name: Categories
       weight: 30
-    - identifier: dropdown
+    - identifier: signup
       pre: complexdropdown
-      name: Dropdown
+      name: Sign Up!
       weight: 40
     - identifier: contact
       name: Contact
@@ -141,12 +141,12 @@ menu:
       name: About
       url: /about/
       weight: 20
-  dropdown:
-    - identifier: appearance
+  signup:
+    - identifier: volunteers
       pre: stars # can be stars, comments or piechart
-      name: Appearance
-      post: "Easy customization"
-      url: "#"
+      name: Volunteers
+      post: "SLP/Volunteer SignUp"
+      url: "https://docs.google.com/forms/d/e/1FAIpQLSd0xYiWmcHQM_GhrxGQHsANH0gcTPJ_2lCx6mfeH7EOvSKixg/viewform?pli=1"
       weight: 10
     - identifier: comments
       pre: comments # can be stars, comments or piechart
