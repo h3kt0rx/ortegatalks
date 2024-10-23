@@ -1,45 +1,23 @@
 {
-  "name": "TailBliss",
-  "version": "0.1.1",
-  "description": "Hugo + Alpine.js + TailwindCSS",
+  "name": "tella",
+  "version": "0.0.1",
+  "description": "Simple, Light, Responsive",
   "main": "index.js",
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.15",
-    "alpinejs": "^3.14.1",
-    "autoprefixer": "^10.4.20",
-    "concurrently": "^9.0.0",
-    "postcss": "^8.4.45",
-    "postcss-cli": "^11.0.0",
-    "tailwindcss": "^3.4.10"
-  },
+  "repository": "https://github.com/opera7133/tella",
+  "author": "wamo <ainznino@pm.me>",
+  "license": "MIT",
   "scripts": {
     "start": "concurrently npm:watch:*",
-    "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
+    "watch:tw": "tailwindcss -i ./themes/tella/assets/css/main.css -o ./themes/tella/assets/css/style.css --watch",
     "watch:hugo": "hugo server",
-    "build": "hugo --minify",
-    "test": "hugo"
+    "build": "tailwindcss -i ./themes/tella/assets/css/main.css -o ./themes/tella/assets/css/style.css && hugo --minify"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nusserstudios/tailbliss.git"
-  },
-  "keywords": [
-    "hugo",
-    "tailwind",
-    "tailwindcss",
-    "alpinejs",
-    "minimal",
-    "responsive",
-    "light mode",
-    "dark mode",
-    "hugo blog",
-    "categories",
-    "tags"
-  ],
-  "author": "NusserStudios",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/nusserstudios/tailbliss/issues"
-  },
-  "homepage": "https://github.com/nusserstudios/tailbliss"
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.12",
+    "autoprefixer": "^10.4.19",
+    "concurrently": "^9.0.0",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.1"
+  }
 }
