@@ -24,7 +24,7 @@ enableRobotsTXT = true
   googleFonts = true
 
   [params.logo]
-    main = "img/logo/logo.svg"
+    main = "static/img/logo/logo.svg"
     alt = "Tella Logo"
 
     # The size parameter is the class name of tailwindcss
